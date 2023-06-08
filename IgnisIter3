@@ -9,85 +9,122 @@
     <link rel="icon" type="image/x-icon" href="img/ignisiterlogo2.jpg">
 </head>
 <body>
+<div>
+    <nav>
+        <img src="img/ignisiterlogo3.png" class="logo">
+    </nav>
+</div>
 
-    <div class="list-box">
-        <div class="box">
-            <span class="title">Title</span> <br>
-            <span class="text">shfujshdjh sjhdjshjh jshj</span>
-        </div>
-        <div class="box">
-            <span class="title">Title</span> <br>
-            <span class="text">shfujshdjh sjhdjshjh jshj</span>
-        </div>
-        <div class="box">
-            <span class="title">Title</span> <br>
-            <span class="text">shfujshdjh sjhdjshjh jshj</span>
-        </div>
+<div class="list-box">
+    <div class="box">
+        <span class="title1">O SKUPINĚ</span> <br>
+        <span class="text1">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Integer lacinia. Suspendisse nisl. Proin mattis lacinia justo. Vivamus ac leo pretium faucibus. Sed convallis magna eu sem. Mauris metus. Duis condimentum augue id magna semper rutrum. Nam sed tellus id magna elementum tincidunt. Duis condimentum augue id magna semper rutrum. Etiam dictum tincidunt diam. Ut enim ad minima veniam, quis nostrum</span>
     </div>
-   
+<div class="box">
+        <span class="title2">INFORMACE</span> <br>
+        <span class="text2">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Integer lacinia. Suspendisse nisl. Proin mattis lacinia justo. Vivamus ac leo pretium faucibus. Sed convallis magna eu sem. Mauris metus. Duis condimentum augue id magna semper rutrum. Nam sed tellus id magna elementum tincidunt. Duis condimentum augue id magna semper rutrum. Etiam dictum tincidunt diam. Ut enim ad minima veniam, quis nostrum</span>
+    </div>
+<div class="box">
+        <span class="title3">KONTAKT</span> <br>
+        <span class="text3">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Integer lacinia. Suspendisse nisl. Proin mattis lacinia justo. Vivamus ac leo pretium faucibus. Sed convallis magna eu sem. Mauris metus. Duis condimentum augue id magna semper rutrum. Nam sed tellus id magna elementum tincidunt. Duis condimentum augue id magna semper rutrum. Etiam dictum tincidunt diam. Ut enim ad minima veniam, quis nostrum</span>
+    </div>
+</div>
+
+<div>
+    <nav>
+        <img src="img/ignisiterlogo3.png" class="logo">
+    </nav>
+</div>   
 </body>
 </body>
 </html>
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 *{
-  padding: 0;
-  margin: 0;
-  font-family:Arial, Helvetica, sans-serif;
-}
-
-.list-box{
-  position: absolute;
-  width: 100%;
- 
-
-  background-image: linear-gradient(rgba(0, 0, 0, 0.342), rgba(0, 0, 0, 0.342)),url(../ict/img/ignisiter1.gif);
-  background-size: cover;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  background-position: center;
-}
-
-
-.box{
-  position: relative;
-  width: 20%;
-  background-color: red;
-  height: 50%;
-  margin-left: 25px ;
-  top: 20%;
+    padding: 0;
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;¨
 }
 
 .logo{
-  padding: 100px 50px;
-  height: 200px;
+    padding: 0;
+    margin: 0;
+    height: 200px;
+    margin-left: 800px;
+}
+  
+  
+.list-box{
+    position: absolute;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.342), rgba(0, 0, 0, 0.342)),url(../ict/img/ignisiter1.gif);
+    background-size: cover;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    background-position: center;
+}
+.box{
+    position: relative;
+    width: 20%;
+    background-color: rgba(255, 145, 0, 0.247);
+    height: 41.5%;
+    margin-left: 100px;
+    margin-right: 100px;
+    top: 50%;
+    box-shadow: -1px 0 10px rgb(255, 255, 255);
+    text-align: center;
+}
+    
+span{
+    color: rgb(0, 0, 0);
 }
 
-span{
-  color: rgb(0, 0, 0);
-}
 body{
-  align-items: center;
-  justify-content: center;   
+    align-items: center;
+    justify-content: center;   
+    background-color: black;
 }
 .cover{
-  width: 800px;
-  height: 400px;
-  margin-top: 40px;
-  display: flex;
+    width: 800px;
+    height: 400px;
+    margin-top: 40px;
+    display: flex;
+}
+  
+  
+.title1{
+    text-align: center;
+    color: white;
+    font-size: 50px;
 }
 
-
-
-title{
-  text-align: center;
-  color: white;
-  font-size: 40px;
-  margin: 15px;
+.title2{
+    text-align: center;
+    color: white;
+    font-size: 50px;
 }
 
-text{
-  text-align: center;
-  color: white;
-  font-size: 20px;
+.title3{
+    text-align: center;
+    color: white;
+    font-size: 50px;
 }
+  
+.text1{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.text2{
+    text-align: center;
+    color: white;
+    font-size: 20px;    
+}
+
+.text3{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
