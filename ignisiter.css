@@ -1,1 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;¨
+}
 
+.logo{
+    padding: 0;
+    margin: 0;
+    height: 200px;
+    margin-left: 800px;
+}
+  
+  
+.list-box{
+    position: absolute;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.342), rgba(0, 0, 0, 0.342)),url(../ict/img/ignisiter1.gif);
+    background-size: cover;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    background-position: center;
+}
+.box{
+    position: relative;
+    width: 20%;
+    background-color: rgba(255, 145, 0, 0.247);
+    height: 41.5%;
+    margin-left: 100px;
+    margin-right: 100px;
+    top: 50%;
+    box-shadow: -1px 0 10px rgb(255, 255, 255);
+    text-align: center;
+}
+    
+span{
+    color: rgb(0, 0, 0);
+}
+
+body{
+    align-items: center;
+    justify-content: center;   
+    background-color: black;
+}
+.cover{
+    width: 800px;
+    height: 400px;
+    margin-top: 40px;
+    display: flex;
+}
+  
+  
+.title1{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+.title2{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+.title3{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+  
+.text1{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.text2{
+    text-align: center;
+    color: white;
+    font-size: 20px;    
+}
+
+.text3{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
