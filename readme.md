@@ -1,1 +1,4 @@
-
+Tento kód slouží pro informační webovou stránku skupiny Ignis Iter, webová stránka má ikonu (před titlem) loga skupiny - (<link rel="icon" type="image/x-icon" href="img/ignisiterlogo2.jpg">), název stránky je tedy název skupiny (Ignis Iter).
+(<img src="img/ignisiterlogo3.png" class="logo">) - tento kód nahraje na webovou stránku obrázek, (logo) který si upravuji podle css (výšku/šířku, atp.). Poté vyjedou takové tři rámečky plné textu. 
+To způsobuje kód níže uvedený pod názvem "box", které si opět upravuji v CSS, jakou mají mít mezi sebou mezeru, kde mají být umíštěné a podobně. Zároveň v CSS je příkaz, který přehraje na pozadí webové stránky gif (background).
+Je to taková webová stránka udělaná podle amatéra s pomocí některých spolužáků (např. Josef Sivčo mi s tím docela dost pomáhal), či zdrojů přístupné na internetu. Do titlů těch boxů mě nějak moc nenapadlo co napsat, tak jsem to vyplnil textem Lorem Ipsum. Samozřejmě velikost boxů je na všech monitorech jinak.
